@@ -1,0 +1,28 @@
+page-home {
+  .item-md ion-thumbnail ion-img,
+  .item-md ion-thumbnail img {
+    width: 146px;
+    height: 106px;
+  }
+
+  .item-ios ion-thumbnail ion-img,
+  .item-ios ion-thumbnail img {
+    width: 146px;
+    height: 106px;
+  }
+
+  .list-ios > .item-block:first-child {
+    border-top: none;
+  }
+
+  .list-md > .item-block:first-child {
+    border-top: none;
+  }
+
+  .item-md {
+    padding-left: 0px !important;
+  }
+  .item-ios {
+    padding-left: 0px !important;
+  }
+}

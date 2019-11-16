@@ -1,0 +1,33 @@
+<!--
+  Generated template for the NewsdetailsPage page.
+
+  See http://ionicframework.com/docs/components/#navigation for more info on
+  Ionic pages and navigation.
+-->
+<ion-header>
+  <ion-navbar>
+    <ion-title>News Details</ion-title>
+  </ion-navbar>
+</ion-header>
+
+<ion-content padding>
+
+  <ion-fab bottom right #fab (click)="readMore()">
+    <button ion-fab>More</button>
+  </ion-fab>
+
+
+  <ion-content>
+    <div class="imgContainerCls">
+      <img [src]="newsData.urlToImage">
+
+    </div>
+
+    <div class="descreptionCls">
+      <h3 *ngIf="newsData.content == null">No content available, please click on more button</h3>
+      <span>
+        {{newsData.content}}
+      </span>
+    </div>
+  </ion-content>
+</ion-content>
