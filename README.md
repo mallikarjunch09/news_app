@@ -17,3 +17,7 @@ This provides a news from choosen county and also it caches the data for one hou
 >`$ ionic cordova plugin add cordova-plugin-inappbrowser`
 
 > `$ npm install --save @ionic-native/in-app-browser@4`
+
+#### For ionic caching
+
+> `$ npm install ionic-cache @ionic/storage --save`
